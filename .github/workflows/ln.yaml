@@ -11,6 +11,6 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@get-default-branch
+      - uses: nobe4/action-ln@environment
         with:
           noop: true
