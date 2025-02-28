@@ -11,6 +11,6 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@v0.0.13
+      - uses: nobe4/action-ln@user
         with:
           noop: true
