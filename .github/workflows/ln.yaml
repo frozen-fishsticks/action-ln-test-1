@@ -11,6 +11,6 @@ jobs:
   link:
     runs-on: ubuntu-latest
     steps:
-      - uses: nobe4/action-ln@get-or-create-branch
+      - uses: nobe4/action-ln@version
         with:
           noop: true
